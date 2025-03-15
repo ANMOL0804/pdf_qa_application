@@ -14,21 +14,24 @@ This project is a **PDF Question Answering** application where users can upload 
 
 First, clone the repository to your local machine:
 
-```bash
-git clone https://github.com/ANMOL0804/pdf_qa_app.git
-cd pdf_qa_app
+1. **clone and move inside the directory**
+
+
+    ```bash
+     git clone https://github.com/ANMOL0804/pdf_qa_application.git
+   
 
 ### 2. Set Environment Variables
 
-To run the app locally, you need to set two environment variables:
+To run the app locally, you need to rename .env.example to .env and set two environment variables inside:
 
 - **`HF_API_KEY`**: Your Hugging Face API key for accessing the summarization and question-answering models.
 - **`DATABASE_URL`**: The URL for the SQLite database used by the application.
 
 #### Steps:
 
-1. **Rename `.env.example` to `.env`**:
-   Inside the **`backend`** folder, you’ll find a file named `.env.example`. Rename it to `.env`:
+1. **set .env.example to .env**
+   
 
    ```bash
    mv backend/.env.example backend/.env
@@ -37,13 +40,13 @@ To run the app locally, you need to set two environment variables:
 
 To run the app locally using Docker, we will use **Docker Compose** to set up both the backend and frontend services.
 
-2. **Build the containers**:
+ **Build the containers**:
    From the root directory of the project (where the `docker-compose.yml` file is located), run the following command to build the Docker containers for both backend and frontend:
 
-   ```bash
-   docker-compose build
+  
+   $ docker-compose build
 
-3.### 3. Start the Containers
+### 4. Start the Containers
 
 After successfully building the Docker containers, you can start them with the following steps:
 
@@ -51,10 +54,9 @@ After successfully building the Docker containers, you can start them with the f
 
    To start both the frontend and backend containers and see their logs in the terminal, run:
 
-   ```bash
-   docker-compose up
+  $ docker-compose up
 
-4.### 4. Access the Application
+### 4. Access the Application
 
 Once the Docker containers are up and running, you can access the application in your web browser:
 
