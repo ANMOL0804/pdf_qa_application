@@ -34,7 +34,7 @@ To run the app locally, you need to rename .env.example to .env and set two envi
    
 
    ```bash
-   mv backend/.env.example backend/.env
+     mv backend/.env.example backend/.env
 
 2. **set the environment variables**
 
@@ -57,7 +57,7 @@ After successfully building the Docker containers, you can start them with the f
 
    To start both the frontend and backend containers and see their logs in the terminal, run:
    ```bash
-   docker-compose up
+     docker-compose up
 
 ### 4. Access the Application
 
