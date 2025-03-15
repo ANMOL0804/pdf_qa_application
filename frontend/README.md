@@ -14,9 +14,13 @@ This project is a **PDF Question Answering** application where users can upload 
 
 First, clone the repository to your local machine:
 
+1. **Rename `.env.example` to `.env`**:
 
- git clone https://github.com/ANMOL0804/pdf_qa_app.git
- cd pdf_qa_app
+
+    ```bash
+     mv backend/.env.example backend/.env
+     git clone https://github.com/ANMOL0804/pdf_qa_app.git
+     cd pdf_qa_app
 
 ### 2. Set Environment Variables
 
@@ -27,8 +31,8 @@ To run the app locally, you need to set two environment variables:
 
 #### Steps:
 
-1. **Rename `.env.example` to `.env`**:
-   Inside the **`backend`** folder, you’ll find a file named `.env.example`. Rename it to `.env`:
+1. **use**
+   
 
    ```bash
    mv backend/.env.example backend/.env
