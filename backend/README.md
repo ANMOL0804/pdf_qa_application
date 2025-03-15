@@ -100,7 +100,7 @@ The "Chat with PDF" API utilizes various libraries and modules to handle differe
 
 These libraries and modules work together to enable the "Chat with PDF" functionality, allowing users to interact with PDF content through a question-answering API.
 
-### 6. Backend Access
+## 6. Database 
 
 
 This document describes the database schema used in the "Chat with PDF" API, which consists of two main tables: `pdf_sessions` and `chat_messages`. The schema is created using SQLAlchemy ORM, which allows interaction with the database in Python.
