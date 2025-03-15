@@ -19,9 +19,6 @@ This endpoint allows users to upload a PDF file. The text is extracted from the 
 - **Request**: A PDF file is uploaded using `multipart/form-data`.
 - **Response**: Returns a JSON response with a session ID and the PDF summary.
 
-# Chat with PDF API
-
-The "Chat with PDF" feature allows users to interact with an uploaded PDF by asking questions based on the content of the PDF. This API utilizes a Hugging Face QA model to find relevant answers.
 
 ## Endpoint
 
