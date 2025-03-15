@@ -1,5 +1,13 @@
 # PDF-QA App
 
+## Image 1
+
+![Image 1](images/image1.png)
+
+## Image 2
+
+![Image 2](images/image2.png)
+
 This project is a **PDF Question Answering** application where users can upload a PDF, get a summary, and interact with the document using AI-generated answers based on its content.
 
 ## Prerequisites
