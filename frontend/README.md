@@ -56,7 +56,7 @@ After successfully building the Docker containers, you can start them with the f
 1. **Start the containers in the foreground**:
 
    To start both the frontend and backend containers and see their logs in the terminal, run:
-   
+      ```text
       docker-compose up
 
 ### 4. Access the Application
