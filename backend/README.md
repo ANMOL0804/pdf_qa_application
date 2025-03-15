@@ -20,7 +20,7 @@ This endpoint allows users to upload a PDF file. The text is extracted from the 
 - **Response**: Returns a JSON response with a session ID and the PDF summary.
 
 
-## Endpoint
+
 
 ### **POST /chat/**
 
