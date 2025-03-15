@@ -15,8 +15,8 @@ This project is a **PDF Question Answering** application where users can upload 
 First, clone the repository to your local machine:
 
 
-$ git clone https://github.com/ANMOL0804/pdf_qa_app.git
-$ cd pdf_qa_app
+ git clone https://github.com/ANMOL0804/pdf_qa_app.git
+ cd pdf_qa_app
 
 ### 2. Set Environment Variables
 
