@@ -19,11 +19,11 @@ First, clone the repository to your local machine:
 
     ```bash
      git clone https://github.com/ANMOL0804/pdf_qa_application.git
-     cd pdf_qa_app
+   
 
 ### 2. Set Environment Variables
 
-To run the app locally, you need to rename .env.example to .enc set two environment variables inside:
+To run the app locally, you need to rename .env.example to .env and set two environment variables inside:
 
 - **`HF_API_KEY`**: Your Hugging Face API key for accessing the summarization and question-answering models.
 - **`DATABASE_URL`**: The URL for the SQLite database used by the application.
