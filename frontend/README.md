@@ -18,7 +18,7 @@ First, clone the repository to your local machine:
 
 
     ```bash
-     git clone https://github.com/ANMOL0804/pdf_qa_app.git
+     git clone https://github.com/ANMOL0804/pdf_qa_application.git
      cd pdf_qa_app
 
 ### 2. Set Environment Variables
