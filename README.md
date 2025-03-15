@@ -34,30 +34,30 @@ To run the app locally, you need to rename .env.example to .env and set two envi
    
 
    ```bash
-   mv backend/.env.example backend/.env
+     mv backend/.env.example backend/.env
 
 2. **set the environment variables**
 
 
-### 3. Build and Run with Docker
+### 3. Build and Run with Docker:
 
 To run the app locally using Docker, we will use **Docker Compose** to set up both the backend and frontend services.
 
- **Build the containers**:
+1. **Build the containers**
    From the root directory of the project (where the `docker-compose.yml` file is located), run the following command to build the Docker containers for both backend and frontend:
 
-  
-   $ docker-compose build
+       
+       docker-compose build
 
 ### 4. Start the Containers
 
 After successfully building the Docker containers, you can start them with the following steps:
 
- **Start the containers in the foreground**:
+1. **Start the containers in the foreground**:
 
    To start both the frontend and backend containers and see their logs in the terminal, run:
-
-  $ docker-compose up
+      ```text
+      docker-compose up
 
 ### 4. Access the Application
 
