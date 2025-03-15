@@ -46,7 +46,7 @@ To run the app locally using Docker, we will use **Docker Compose** to set up bo
 1. **Build the containers**
    From the root directory of the project (where the `docker-compose.yml` file is located), run the following command to build the Docker containers for both backend and frontend:
 
-       ```text
+       
        docker-compose build
 
 ### 4. Start the Containers
