@@ -10,3 +10,4 @@ scikit-learn
 transformers
 torch
 sentencepiece
+python-multipart
