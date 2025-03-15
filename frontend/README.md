@@ -26,7 +26,7 @@ First, clone the repository to your local machine:
 To run the app locally, you need to rename .env.example to .env and set two environment variables inside:
 
 - **`HF_API_KEY`**: Your Hugging Face API key for accessing the summarization and question-answering models.
-- **`DATABASE_URL`**: The URL for the SQLite database used by the application.
+- **`DATABASE_URL`**: The URL for the SQLite database used by the application(sqlite:///./session_data.db for local storage).
 
 #### Steps:
 
@@ -35,6 +35,9 @@ To run the app locally, you need to rename .env.example to .env and set two envi
 
    ```bash
    mv backend/.env.example backend/.env
+
+2. **set the environment variables**
+
 
 ### 3. Build and Run with Docker
 
