@@ -14,11 +14,10 @@ This project is a **PDF Question Answering** application where users can upload 
 
 First, clone the repository to your local machine:
 
-1. **Rename `.env.example` to `.env`**:
+1. **clone and move inside the directory**
 
 
     ```bash
-     mv backend/.env.example backend/.env
      git clone https://github.com/ANMOL0804/pdf_qa_app.git
      cd pdf_qa_app
 
