@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend  # Path to the backend directory
+      dockerfile: Dockerfile  # You can specify the Dockerfile name if it's not named "Dockerfile"
+    ports:
+      - "8000:8000"  # Expose backend on port 8000 (example, adjust based on your backend setup)
+    volumes:
+      - ./backend:/app  # Mount local backend directory to container
+    environment:
+      - ENV_VARIABLE=your_value  # Add any environment variables for backend here
+    networks:
+      - mynetwork
+
+  frontend:
+    build:
+      context: ./frontend  # Path to the frontend directory
+      dockerfile: Dockerfile  # Specify frontend Dockerfile if needed
+    ports:
+      - "3000:3000"  # Expose frontend on port 3000 (example)
+    volumes:
+      - ./frontend:/app  # Mount local frontend directory to container
+    depends_on:
+      - backend  # Ensure frontend waits for backend to start
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
