@@ -85,4 +85,4 @@ The backend of the application is built with **FastAPI** and can be accessed thr
    Once the Docker containers are running, the backend FastAPI application will be available at:
 
    ```text
-   http://localhost:8000
+   http://localhost:8000/docs
