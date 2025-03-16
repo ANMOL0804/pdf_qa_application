@@ -25,7 +25,6 @@ QA_MODEL = "deepset/roberta-base-squad2"
 
 tokenizer = AutoTokenizer.from_pretrained(QA_MODEL)
 
-# Dependency to get DB session
 def get_db():
     db = SessionLocal()
     try:
@@ -33,7 +32,6 @@ def get_db():
     finally:
         db.close()
 
-# Pydantic model for chat requests
 class ChatRequest(BaseModel):
     session_id: str
     message: str
